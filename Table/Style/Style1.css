@@ -1,0 +1,29 @@
+body {
+    background-color: grey;
+}
+
+caption {
+    font-size: 30px;
+    font-family: B Nazanin;
+    padding-bottom: 10px;
+}
+
+td {
+    border: 4px outset black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 650px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
