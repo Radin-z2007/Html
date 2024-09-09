@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up</title>
+        <link rel="stylesheet" href="../Style/Sign up-style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form method="post">
+                <fieldset id="box">
+                    <legend id="subject">Sign up</legend> <br />
+
+                    <label for="fname">First Name :</label>
+                    <input
+                        id="fname"
+                        type="text"
+                        placeholder="First Name" />
+                    <br />
+                    <br />
+                    <label for="lanme">Last Name :</label>
+                    <input
+                        id="lanme"
+                        type="text"
+                        placeholder="Last Name" />
+                    <br />
+                    <br />
+                    <label for="email">Email :</label>
+                    <input
+                        id="email"
+                        type="email"
+                        placeholder="Name@gmail.com" />
+                    <br />
+                    <br />
+                    <label for="tel">Telephone :</label>
+                    <input
+                        id="tel"
+                        type="tel"
+                        pattern="[0-9]{3}-[0-9]{8}"
+                        placeholder="021-12345678"
+                        maxlength="11" />
+                    <br />
+                    <br />
+                    <label for="birthday">Birthday :</label>
+                    <input id="birthday" type="date" style="cursor: pointer;" />
+                    <br />
+                    <br />
+                    <fieldset id="gender">
+                        <legend>Gender</legend>
+
+                        <input id="male" name="gender" type="radio" />
+                        <label for="male">Male</label>
+                        <input id="female" name="gender" type="radio" />
+                        <label for="female">Female</label>
+                    </fieldset>
+                    <br />
+                    <label for="cars">Choose a city :</label>
+
+                    <select name="cars" id="cars" style="cursor: pointer;">
+                        <option value="Tehran">Tehran</option>
+                        <option value="Karaj">Karaj</option>
+                        <option value="Qazvin">Qazvin</option>
+                        <option value="Esfahan">Esfahan</option>
+                        <option value="Shiraz">Shiraz</option>
+                        <option value="Mashhad">Mashhad</option>
+                        <option value="Gilan">Gilan</option>
+                        <option value="Mazandaran">Mazandaran</option>
+                        <option value="Gorgan">Gorgan</option>
+                    </select>
+                    <br />
+                    <br />
+                    <input id="submit" type="submit" value="Sign up"
+                        onclick="alert('Your information has been registered.')" />
+                    <hr />
+                    <p>
+                        <a href="../Source/Sign in.html">Sign in</a>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
